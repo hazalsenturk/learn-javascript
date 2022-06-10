@@ -4,6 +4,12 @@ let lapsCompleted = 0
 // Run it three times
 
 
+function increment(){
+    lapsCompleted++
+}
 
+for(let i=0; i<3;i++){
+    increment();
+}
 
 console.log(lapsCompleted)
